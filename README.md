@@ -19,12 +19,12 @@
 ### after that click on Export 
 
 ### then write this command in terminal
-
+<pre>
 sudo mv /opt/sublime_text/sublime_text ./sublime_text.old
 cd $HOME/Downloads/
 chmod 755 sublime_text
 sudo chown root sublime_text
 sudo chgrp root sublime_text
 sudo mv sublime_text /opt/sublime_text/
-
+</pre>
 ### Done Happy Code (^-^)
